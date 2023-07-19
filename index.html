@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Basic HTML</title>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Café Expert</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mx-auto mb-3 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ni idea</a></li>
+                  <li><a class="dropdown-item" href="#">Menos todavia</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Contacto </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" aria-label="Search">
+              <button class="btn btn-dark" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+    <div id="carouselExampleInterval" class="carousel slide carousel-light mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img src="images/cafe 1.jpg" class="w-50 m-auto img-carousel" alt="foto carousel 1">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/cafe 2.jpg" class="w-50 m-auto img-carousel" alt="foto carousel 2">
+        </div>
+      </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</main>
+    <article>
+        <h1>Expertos en Café</h1>
+
+        <p>Desde 1950 que desarrollamos y vendemos café de calidad premium, nosotros sabemos que es el cafe y como mejora la calidad de vida de uno y lo tomamos por lo que es, la mejor bebida del planeta.</p>
+    </article>
+
+
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
